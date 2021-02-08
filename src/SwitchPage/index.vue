@@ -116,7 +116,7 @@ export default {
 
 <style lang="less" scoped>
 @shadow-color: rgba(133, 132, 132, 0.26);
-@duration: 10.5s;
+@duration: 0.5s;
 
 .mask-page {
     &::after {
@@ -213,7 +213,7 @@ export default {
 
 .slide-right-leave-to,
 .slide-right-enter {
-    transform: translate(-90%, 0);
+    transform: translate(-100%, 0);
 }
 
 // 完成后最终位置和离开时起始位置
@@ -221,7 +221,7 @@ export default {
 .slide-right-enter-to,
 .slide-left-leave,
 .slide-left-enter-to {
-    transform: translate(0, 0) !important;
+    transform: translate(0, 0);
 }
 
 .slide-left-enter,

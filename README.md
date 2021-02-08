@@ -4,4 +4,11 @@
 
     It's just a demo, When I found him, it couldn't be withdrawn
 
-> A Vue.js project
+# 安装
+
+    npm install vue-switch-page
+
+# main.js
+
+    import SwitchPage from 'vue-switch-page'
+    Vue.use(SwitchPage)
