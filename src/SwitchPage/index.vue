@@ -116,7 +116,7 @@ export default {
 
 <style lang="less" scoped>
 @shadow-color: rgba(133, 132, 132, 0.26);
-@duration: 0.5s;
+@duration: 1.5s;
 
 .mask-page {
     &::after {
